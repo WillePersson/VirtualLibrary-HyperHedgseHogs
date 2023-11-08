@@ -32,5 +32,10 @@ namespace VirtualLibrary_HyperHedgseHogs
         {
             Console.WriteLine($"{Titel}, {Författare} återlämnad.");
         }
+
+        public override void SpelaUpp()
+        {
+            Console.WriteLine($"Du läser {Titel}, {Författare}.");
+        }
     }
 }
