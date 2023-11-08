@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VirtualLibrary_HyperHedgseHogs
 {
-    public abstract class Bok
+    public class Bok : Media, IUtlånbar
     {
         public string Titel { get; set; }
         public string Författare { get; set; }
@@ -21,6 +21,16 @@ namespace VirtualLibrary_HyperHedgseHogs
         public virtual void SkrivUtInfo()
         {
             Console.WriteLine($"Titel: {Titel}\nFörfattare: {Författare}\nISBN: {ISBN}");
+        }
+
+        public void LånaUt()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ÅterLämna()
+        {
+            throw new NotImplementedException();
         }
     }
 }
