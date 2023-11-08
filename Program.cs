@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            var minMedia = Metoder.HämtaMediaLista();
+            Metoder.LoopaOchSkrivUt(minMedia);
         }
     }
 }

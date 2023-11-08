@@ -35,7 +35,7 @@
         {
             foreach (var media in mediaLista)
             {
-                media.VisaInfo();
+                media.SpelaUpp();
             }
         }
     }
