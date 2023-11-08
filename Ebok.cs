@@ -22,5 +22,9 @@ namespace VirtualLibrary_HyperHedgseHogs
             base.SkrivUtInfo();
             Console.WriteLine($"\nFilstorlek: {Filstorlek}\nDownloadURL: {DownloadUrl}");
         }
+        public override void SpelaUpp()
+        {
+            Console.WriteLine($"du har börjat lyssna på {Titel} av {Författare}");
+        }
     }
 }
