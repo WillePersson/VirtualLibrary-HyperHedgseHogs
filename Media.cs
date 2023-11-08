@@ -9,6 +9,5 @@ namespace VirtualLibrary_HyperHedgseHogs
     public abstract class Media
     {
         public abstract void SpelaUpp();
-        public abstract void VisaInfo();
     }
 }
