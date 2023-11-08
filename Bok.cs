@@ -25,12 +25,12 @@ namespace VirtualLibrary_HyperHedgseHogs
 
         public void LånaUt()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Titel}, {Författare} utlånad.");
         }
 
         public void ÅterLämna()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Titel}, {Författare} återlämnad.");
         }
     }
 }
