@@ -24,7 +24,7 @@ namespace VirtualLibrary_HyperHedgseHogs
         }
         public override void SpelaUpp()
         {
-            Console.WriteLine($"du har börjat lyssna på {Titel} av {Författare}");
+            Console.WriteLine($"Du har börjat lyssna på {Titel} av {Författare}");
         }
     }
 }
